@@ -1,0 +1,49 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(../image/img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    opacity: 1;
+    color: black;
+}
+.container{
+    width: 55%;
+    height: 85vh;
+    background-color: rgba(92, 92, 255, 0.452);
+    border: none;
+    border-radius: 2em;
+    margin-left: 20%;
+    box-shadow: 7px 7px 7px rgb(98, 0, 255) ,-7px -7px 7px rgb(98, 0, 255,0.349);
+}
+.DISPLAY #screen{
+    width: 90%;
+    height: 12vh;
+    text-align: right;
+    font-size: 2em;
+    border: none;
+    border-radius: 0.3em;
+    padding-right: 2%;
+    opacity: 1;
+  
+    box-shadow:inset 7px 7px 7px rgb(131, 131, 131) ,inset -7px 7px rgb(163, 163, 163,0.281);
+}
+ 
+.DISPLAY input:focus{
+    outline: none;
+}
+
+
+.container .btns{
+    width: 100%;
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
